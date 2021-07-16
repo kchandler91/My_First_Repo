@@ -1,0 +1,104 @@
+body {
+  height: 5000px;
+}
+
+.nav-item{
+  display: inline-block;
+  width: 100px;
+  padding: 28px;
+  background-color: rgb(61, 61, 61);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav{
+  height: 72px;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-bottom: 1px solid grey;
+
+}
+
+.sidebar{
+  width: 29%;
+  height: 2000px;
+  float: left;
+}
+
+.body {
+  width: 70.9%;
+  height: 2000px;
+  background-color: lightgray;
+  float: left;
+  border-left: 1px solid grey;
+}
+
+.sidebar-top{
+  background-color: lightgray;
+  height: 500px;
+}
+
+.sidebar-bottom{
+  background-color: lightgray;
+  height: 1500px;
+  border-top: 1px solid grey;
+}
+
+.dog-img{
+  display: block;
+  padding: 10px;
+  width: 300px;
+  padding-top: 75px;
+  padding-left: 30%;
+}
+
+.name {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  margin-left: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 4;
+}
+
+.stats {
+  font-weight: bold;
+}
+
+.dog-img-2 {
+  float: left;
+  padding: 50px;
+  width: 550px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.body-copy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 50px;
+  line-height: 1.5;
+}
+
+.dog-img-3{
+  display: inline-block;
+  width: 498px;
+  padding: 50px;
+}
+
+.h2-pics {
+  text-align: center;
+}
