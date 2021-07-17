@@ -1,0 +1,13 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+.jumbotron {
+    background-image: url("../images/final/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 40vh;
+}
