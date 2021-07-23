@@ -11,3 +11,17 @@ body {
     background-position:center;
     height: 40vh;
 }
+
+.jumboCopy {
+    
+}
+
+.jumboHeadline{
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: 100px;
+}
+
+.jumboSubhead {
+    color: white;
+}
