@@ -4,24 +4,36 @@ body {
 }
 
 
-.jumbotron {
+/* .jumbotron {
     background-image: url("../images/final/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     height: 40vh;
-}
+} */
 
-.jumboCopy {
-    
+/* .jumboCopy {
+    text-align: center;
 }
 
 .jumboHeadline{
     color: white;
     font-family: 'open sans', sans-serif;
     font-size: 100px;
+    font-weight: bolder;
+    margin-top: -20px;
 }
 
 .jumboSubhead {
     color: white;
+    font-style: italic;
+}
+
+.jumboButton {
+    margin-top: 20px;
+} */
+
+.carousel-inner h5{
+    font-weight: bold;
+    animation: ;
 }
