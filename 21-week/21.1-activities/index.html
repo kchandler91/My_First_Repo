@@ -32,13 +32,13 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
-
 </head>
 
 <!-- navigation -->
 <section>
-  <img src="images/final/logo.png">
+  <div class="logo">
+    <img src="images/final/logo.png">
+  </div>
   <div>
     <ul class="nav justify-content-end">
       <li class="nav-item">
@@ -56,12 +56,8 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact Us</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-      </li>
     </ul>
   </div>
-  <p class="hamburger"> <img src="images/final/search-icon.png"></p>
 </section>
 
 <!-- jumbo tron -->
@@ -85,7 +81,7 @@
       <div class="carousel-caption d-none d-md-block" style="margin-bottom: auto;">
         <h5><strong>2021 FORD BRONCO</strong></h5>
         <p>Read all about the highly-anticipated Ford Bronco.</p>
-        <button type="button" class="btn btn-outline-primary" style="color: white; border-color: white;"><a href="">READ MORE</a></button>
+        <button type="button" class="btn btn-outline-success">READ MORE</button>
       </div>
     </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -138,8 +134,10 @@
 
 <!-- news-worthy moments cards -->
 <section class="section1">
-  <h1>NEWS-WORTHY MOMENTS</h1>
-  <h5>READ MORE ></h5>
+  <div class="section1header">
+    <h1><strong>NEWS-WORTHY MOMENTS</strong></h1>
+    <h5><a href="...">READ MORE ></a></h5>
+  </div>
   <div class="card-columns">
     <div class="card" style="width: 26rem;">
       <img src="images/final/news-card-left.png" class="card-img-top" alt="...">
@@ -174,7 +172,7 @@
 
 <section id="subscribe">
   <div class="form-container"> 
-    <h2>JOIN OUR MAILING LIST</h2>
+    <h2><strong>JOIN OUR MAILING LIST</strong></h2>
     <p>Want to hear from us more? Trust me, we have plenty of stuff to send you. I promise we won’t get annoying.</p>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Enter a Valid Email Address" aria-label="Search">
@@ -182,25 +180,19 @@
     </form>
   </div>
   <footer>
-    <div> 
-      <img src="images/final/logo.png">
-        <ul class="">
-          <li class="">
-            <a class="active" aria-current="page" href="#">ABOUT US</a>
-          </li>
-          <li class="">
-            <a class="" href="#">CONTACT US</a>
-          </li>
-        </ul>
-      </div>
+    <div class="footer"> 
+      <ul class="">
+        <li class="">
+         <a class="active" aria-current="page" href="#">ABOUT US</a>
+        </li>
+        <img src="images/final/subscribe-logo.png">
+        <li class="">
+          <a class="" href="#">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </section>
-
-
-
-
-
-
 
 </body>
 </html>
